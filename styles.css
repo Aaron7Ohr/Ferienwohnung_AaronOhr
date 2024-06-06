@@ -1,25 +1,48 @@
-.flex-container{ display:flex;
-  justify-content:center;}
-  fieldset.flex-container{ flex-direction: column;
-                            display:inline-block;}
+.flex-container {
+  display: flex;
+  width: 50%;
+}
+
+div.flex-container {
+  width:50%;
+}
+label{text-align: :right;
+      width:100px;
+      margin-right:10px;
+    justify-content: center;} 
+
+
+div.Eingabe{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;;
+}
+input {flex:1;
+      padding:5px;
+      box-sizing:border-box ;}
+
 main {
   bottom: 50px;
   position: relative;
 }
-nav.flex-container{row-gap:200;}
-fieldset.flex1{width:50%;}
-fieldset.flex2{width:50%;}
+
+nav.flex-container {
+  row-gap: 200;
+  margin-bottom: 50px;;
+}
+
 h1 {
- 
+
   font-size: 100px;
-  text-align: center;}
-input{display:flex;}
-label{display:flex;}
+  text-align: center;
+}
 
 header {
   position: relative;
   background-color: rgb(208, 203, 203);
-  
+  margin-bottom: 100px;
+
 }
 
 footer {
@@ -30,7 +53,10 @@ footer {
 
 div.Highlights {
   padding: 10px;
-  text-align: center;
+
+display:flex;
+  justify-content: center;
+ 
 }
 
 p.color {
@@ -70,20 +96,15 @@ nav {
 }
 
 div.Picture {
-  position: relative;
-  top: 20px;
-  
-  
-  
  
-  width: 20px;
-  display:flex;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-content:center;
-  row-gap:20px;
+ 
 }
+
 .dropdown-content {
- display: none;
+  display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -96,6 +117,7 @@ div.Picture {
   position: relative;
   display: inline-block;
 }
+
 .dropbtn {
   background-color: rgb(208, 203, 203);
   color: rgb(29, 29, 29);
@@ -104,7 +126,8 @@ div.Picture {
   border: 3px solid black;
   border-radius: 25px;
 }
-.dropdown-content{
+
+.dropdown-content {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -112,3 +135,4 @@ div.Picture {
   border: 3px solid black;
   border-radius: 25px;
 }
+body{ background-color: beige;}

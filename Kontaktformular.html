@@ -13,9 +13,6 @@
   <nav>
     <a Class="nav" href="index.html">Startseite</a>
     <a Class="nav" href="Formular.html">Buchungsformular</a>
-    <a Class="nav" href="www.google.de/maps">Google Maps</a>
-    <a Class="nav" href="snake.html">Snake</a>
-
   </nav>
   <br>
   <br>
@@ -31,29 +28,45 @@
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4824.931162694325!2d-81.88266592361602!3d26.633898672015125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88db41c2830d5555%3A0xcffd4e536e6395a3!2sEdison%20%26%20Ford%20Winter%20Estates!5e1!3m2!1sde!2sde!4v1717576175220!5m2!1sde!2sde"
       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <form action="test.php">
-      <pre>
-      <fieldset class="flex-container">
-    <label class="label" for="fname">First name:</label>
-    <input class="input" type="text" id="name" name="Name">
-    <label class="label" for="Vorname">Vorname:</label>
-    <input class="input" type="text" id="name" name="Vorname">
-    <label class="label" for="Ort">Ort:</label>
-    <input class="input" type="text" id="name" name="Ort">
-    <label class="label" for="PLZ">Postleitzahl:</label>
-    <input class="input" type="text" id="name" name="PLZ">
-    <label class="label" for="Straße">Straße:</label>
-    <input class="input" type="text" id="name" name="Straße">
-    <label class="label" for="Hn">Hausnummer:</label>
-    <input class="input" type="text" id="name" name="Hn">
-    <label class="label" for="Email">Mailadresse:</label>
-    <input class="input" type="text" id="name" name="Email">
-    <label class="label" for="Kn">Kontonummer:</label>
-    <input class="input" type="text" id="name" name="Kn">
-    <label class="label" for="birthday">Buchungszeitraum:</label><input type="date" id="birthday" name="birthday">
-   
-    
-  
+    <div class="flex-container">
+      <form action="test.php">
+     <div class="Eingabe"> 
+    <label  for="fname">First name:</label>
+    <input  type="text" id="name" name="Name">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Vorname">Vorname:</label>
+    <input  type="text" id="name" name="Vorname">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Ort">Ort:</label>
+    <input  type="text" id="name" name="Ort">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="PLZ">Postleitzahl:</label>
+    <input  type="text" id="name" name="PLZ">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Straße">Straße:</label>
+    <input  type="text" id="name" name="Straße">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Hn">Hausnummer:</label>
+    <input  type="text" id="name" name="Hn">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Email">Mailadresse:</label>
+    <input  type="text" id="name" name="Email">
+  </div>  
+  <div class="Eingabe"> 
+    <label  for="Kn">Kontonummer:</label>
+    <input  type="text" id="name" name="Kn">
+  </div>
+  <div class="Eingabe"> 
+    <label  for="birthday">Buchungszeitraum:</label>
+    <input type="date" id="birthday" name="birthday">
+  </div>  
+  <div class="Eingabe"> 
     <label for="label"><b>Bitte Wählen</b></label>
       <div>
         <select class="dropdown-content" name="Tire" id="Tiere" form="carform">
@@ -61,12 +74,11 @@
           <option value="Tiere">Tiere</option>
         </select>
       </div>
-      </div>
+    </div>  
       <br><br><br>
     <input type=submit value="Formulardaten absenden">
-  </fieldset>
-</pre>
-</form>
+    </form>
+  </div>
   </main>
 
 </body>
